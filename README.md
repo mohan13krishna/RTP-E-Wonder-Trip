@@ -11,7 +11,7 @@
 
 --> Add seperately two pictures for design of website like logo name it as des and des1.jpg
 
---> To run it, you need Xmapp and apache tomact to run it in web browser.
+--> To run php files, you need Xmapp and apache tomact to run it in web browser.
 
 --> search it with http://localhost8080
 
