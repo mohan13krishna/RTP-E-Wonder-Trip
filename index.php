@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>E-Wonder Trip</title>
+    <link rel="icon" type="image/x-icon" href="des.jpg">
+
+    <!-- swiper css link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style/style.css">
+    
+
+
+</head>
+<body>
+
+<!-- header section starts -->
+
+<section class="header">
+
+     <a href="index.php" class="logo">travel.</a>
+
+
+     <nav class="navbar">
+        <a href="index.php">Home</a>
+        <a href="about.php">About</a>
+        <a href="package.php">Package</a>
+        <a href="book.php">Book</a>
+        <a href="login.php">Login</a>
+     </nav>
+    
+
+     <div id="menu-btn" class="fa fa-bars"></div>
+
+
+</section>
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home">
+   <div class="swiper home-slider">
+      <div class="swiper-wrapper">
+         <div class="swiper-slide slide" style="background:url(/RTP/images/home-slide-1.png) no-repeat">
+            <div class="content">
+               <span>explore, discover, travel</span>
+               <h3>travel around the world</h3>
+               <a href="package.php" class="btn">discover more</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background:url(/RTP/images/home-slide-2.png) no-repeat">
+            <div class="content">
+               <span>explore, discover, travel</span>
+               <h3>discover the new places</h3>
+               <a href="package.php" class="btn">discover more</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background:url(/RTP/images/home-slide-4.png) no-repeat">
+            <div class="content">
+               <span>explore, discover, travel</span>
+               <h3>make your trip worth while</h3>
+               <a href="package.php" class="btn">discover more</a>
+            </div>
+         </div>
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+   
+   </div>
+
+</section>
+
+<!-- home section ends  -->
+
+<!-- services section starts -->
+
+<section class="services">
+   <h1 class="heading-title"> Our services </h1>
+   <div class="box-container">
+      <div class="box">
+         <img src="/RTP/images/icon-1.png" alt="">
+         <h3>adventure</h3>
+      </div>
+      <div class="box">
+         <img src="/RTP/images/icon-2.png" alt="">
+         <h3>tour guide</h3>
+      </div>
+      <div class="box">
+         <img src="/RTP/images/icon-3.png" alt="">
+         <h3>trekking</h3>
+      </div>
+      <div class="box">
+         <img src="/RTP/images/icon-4.png" alt="">
+         <h3>camp fire</h3>
+      </div>
+      <div class="box">
+         <img src="/RTP/images/icon-5.png" alt="">
+         <h3>offroad</h3>
+      </div>
+      <div class="box">
+         <img src="/RTP/images/icon-6.png" alt="">
+         <h3>camping</h3>
+      </div>
+   </div>
+</section>
+<!-- services section ends -->
+
+<!-- home about section starts -->
+
+<section class="home-about">
+   <div class="image">
+      <img src="images/about-img.jpg" alt="">
+   </div>
+   <div class="content">
+      <h3>about us</h3>
+      <p>E-wonder Trip isn't your average travel agency. We're a passionate team of globetrotters fueled by the desire to ignite your sense of adventure and create unforgettable experiences. We believe travel is more than just ticking destinations off a list; it's about connecting with new cultures, pushing your boundaries, and returning home with memories that last a lifetime.</p>
+      <a href="about.php" class="btn">Read More</a>
+   </div>
+</section>
+
+<!-- home about section ends -->
+
+
+
+<!-- home packages section starts -->
+<section class="home-packages">
+   <h1 class="heading-title">Our Packages </h1>
+   <div class="box-container">
+      <div class="box">
+         <div class="image">
+            <img src="images/pack-img-1.png" Style="width:393px;height:300px;"alt="">
+         </div>
+         <div class="content">
+            <h3>Adventure & Tour </h3>
+            <p>Adventure tours combine sightseeing and exploration with activities that get your adrenaline pumping.</p>
+            <a href="book.php" class="btn">Book Now</a>
+         </div>
+      </div>
+      <div class="box">
+         <div class="image">
+            <img src="images/pack-img-2.png" Style="width:393px;height:300px;"alt="">
+         </div>
+         <div class="content">
+            <h3>Adventure & Tour </h3>
+            <p>Adventure tours combine sightseeing and exploration with activities that get your adrenaline pumping.</p>
+            <a href="book.php" class="btn">Book Now</a>
+         </div>
+      </div>
+      <div class="box">
+         <div class="image">
+            <img src="images/pack-img-3.png" Style="width:393px;height:300px;"alt="">
+         </div>
+         <div class="content">
+            <h3>Adventure & Tour </h3>
+            <p>Adventure tours combine sightseeing and exploration with activities that get your adrenaline pumping.</p>
+            <a href="book.php" class="btn">Book Now</a>
+         </div>
+      </div>
+
+   </div>
+   <div class="load-more"> <a href="package.php" class="btn">Load More</a></div>
+
+</section>
+
+<!-- home packages section ends -->
+
+
+<!-- home offers section starts -->
+
+<section class="home-offer">
+   <div class="content">
+      <h3>Upto 50% off</h3>
+      <p>“E-Wonder Trip Awaits: Limited Time Offer! Book Your Dream Getaway at Half Price.”</p>
+      <a href="book.php" class="btn">Book Now</a>
+   </div>
+</section>
+
+<!-- home offers section ends -->
+
+
+
+<!-- footer section starts -->
+
+<section class="footer">
+   
+   <div class="box-container">
+    
+      <div class="box">
+        <h3>quick links</h3>
+        <a href="index.php"><i class="fa fa-angle-right"></i>home</a>
+        <a href="about.php"><i class="fa fa-angle-right"></i>about</a>
+        <a href="package.php"><i class="fa fa-angle-right"></i>package</a>
+        <a href="book.php"><i class="fa fa-angle-right"></i>book</a>
+      </div>
+      
+      <div class="box">
+        <h3>extra links</h3>
+        <a href="#"><i class="fa fa-angle-right"></i>ask questions</a>
+        <a href="#"><i class="fa fa-angle-right"></i>about us</a>
+        <a href="#"><i class="fa fa-angle-right"></i>privacy policy</a>
+        <a href="#"><i class="fa fa-angle-right"></i>terms of use</a>
+      </div>
+
+      <div class="box">
+        <h3>contact info</h3>
+        <a href="#"><i class="fa fa-phone"></i> +123-456-7870</a>
+        <a href="#"><i class="fa fa-phone"></i> +111-222-3456</a>
+        <a href="#"><i class="fa fa-envelope"></i> wondertrip@gmail.com</a>
+        <a href="#"><i class="fa fa-map"></i> hyderabad,india-500070</a>
+
+      </div>
+
+      <div class="box">
+         <h3>follow us</h3>
+         <a href="#"><i class="fa fa-facebook-f"></i> facebook </a>
+         <a href="#"><i class="fa fa-twitter"></i> twitter </a>
+         <a href="#"><i class="fa fa-instagram"></i> instagram </a>
+         <a href="#"><i class="fa fa-linkedin"></i> linkedin </a>
+      </div>
+   </div>
+
+
+   <div class="credit">created by <span>Wonder team </span>| all rights reserved!</div>
+</section>
+<!-- footer section ends -->
+
+
+<!-- swiper js link -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- custom js file link -->
+<script src="script/script.js"></script>
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="icon" type="image/x-icon" href="des.jpg">
+
+    <!-- swiper css link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/register.css">
+
+</head>
+<body>
+<!-- header section starts -->
+
+<section class="header">
+
+     <a href="index.php" class="logo">travel.</a>
+
+
+     <nav class="navbar">
+        <a href="index.php">Home</a>
+        <a href="about.php">About</a>
+        <a href="package.php">Package</a>
+        <a href="book.php">Book</a>
+        <a href="login.php">Login</a>
+     </nav>
+    
+
+     <div id="menu-btn" class="fa fa-bars"></div>
+
+
+</section>
+<div class="heading" style="background:url(/RTP/images/header-5.jpg) no-repeat">
+    <h1 Style=" font-size: 10rem;text-transform: uppercase;color: var(--white);text-shadow: var(--text-shadow)";>Register</h1>
+</div>
+
+<!-- login form section starts -->
+ <section class="register">
+ <h1 class="heading-title">Register Your Details</h1>
+   <form action="register_form.php" method="post" class="register-form" Style="padding: 2rem;background: var(--light-bg);">
+      <div class="flex" Style=" display: flex;flex-wrap: wrap;gap: 2rem;">
+         <div class="inputBox" Style="flex:1 1 41rem;">
+            <span Style="font-size: 1.5rem;color: var(--light-black);">name :</span>
+            <input type="name" placeholder="enter your name" name="name" required Style="width: 100%;padding: 1.2rem 1.4rem;font-size:1.6rem;color: var(--light-black);text-transform: none;margin-top: 1.5rem;border: var(--border);">
+         </div>
+         <div class="inputBox" Style="flex:1 1 41rem;">
+            <span Style="font-size: 1.5rem;color: var(--light-black);">email :</span>
+            <input type="email" placeholder="enter your email" name="email" required Style="width: 100%;padding: 1.2rem 1.4rem;font-size:1.6rem;color: var(--light-black);text-transform: none;margin-top: 1.5rem;border: var(--border);">
+         </div>
+         <div class="inputBox" Style="flex:1 1 41rem;">
+            <span Style="font-size: 1.5rem;color: var(--light-black);">password :</span>
+            <input type="password" placeholder="enter your password" name="password" required Style="width: 100%;padding: 1.2rem 1.4rem;font-size:1.6rem;color: var(--light-black);text-transform: none;margin-top: 1.5rem;border: var(--border);">
+         </div>
+         <div class="inputBox" Style="flex:1 1 41rem;">
+            <span Style="font-size: 1.5rem;color: var(--light-black);">repassword :</span>
+            <input type="password" placeholder="enter your password again" name="repassword" required Style="width: 100%;padding: 1.2rem 1.4rem;font-size:1.6rem;color: var(--light-black);text-transform: none;margin-top: 1.5rem;border: var(--border);">
+         </div>
+         <input type="submit" name="send" value="register now" class="btn" style="margin-top: 2rem;">
+           <p Style="font-size:2rem">already a member? <a href="login.php">login now</a></p>
+      </div>
+   </form>
+</section>
+
+<!-- login form section ends -->
+
+<!-- footer section starts -->
+
+<section class="footer">
+   
+   <div class="box-container">
+    
+      <div class="box">
+        <h3>quick links</h3>
+        <a href="index.php"><i class="fa fa-angle-right"></i>home</a>
+        <a href="about.php"><i class="fa fa-angle-right"></i>about</a>
+        <a href="package.php"><i class="fa fa-angle-right"></i>package</a>
+        <a href="book.php"><i class="fa fa-angle-right"></i>book</a>
+      </div>
+      
+      <div class="box">
+        <h3>extra links</h3>
+        <a href="#"><i class="fa fa-angle-right"></i>ask questions</a>
+        <a href="#"><i class="fa fa-angle-right"></i>about us</a>
+        <a href="#"><i class="fa fa-angle-right"></i>privacy policy</a>
+        <a href="#"><i class="fa fa-angle-right"></i>terms of use</a>
+      </div>
+
+      <div class="box">
+        <h3>contact info</h3>
+        <a href="#"><i class="fa fa-phone"></i> +123-456-7870</a>
+        <a href="#"><i class="fa fa-phone"></i> +111-222-3456</a>
+        <a href="#"><i class="fa fa-envelope"></i> wondertrip@gmail.com</a>
+        <a href="#"><i class="fa fa-map"></i> hyderabad,india-500070</a>
+
+      </div>
+
+      <div class="box">
+         <h3>follow us</h3>
+         <a href="#"><i class="fa fa-facebook-f"></i> facebook </a>
+         <a href="#"><i class="fa fa-twitter"></i> twitter </a>
+         <a href="#"><i class="fa fa-instagram"></i> instagram </a>
+         <a href="#"><i class="fa fa-linkedin"></i> linkedin </a>
+      </div>
+   </div>
+
+
+   <div class="credit">created by <span>Wonder team </span>| all rights reserved!</div>
+</section>
+<!-- footer section ends -->
+
+
+<!-- swiper js link -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- custom js file link -->
+<script src="script/script.js"></script>
+
+
+
+
+
+
+
+    
+</body>
+</html>
