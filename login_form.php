@@ -4,7 +4,6 @@ $connection = mysqli_connect('localhost', 'root', '', 'login_db');
 if (!$connection) {
     die("Connection failed: " . mysqli_connect_error());
 }
-
 if (isset($_POST['submit'])) { // Changed from 'send' to 'submit'
     $email = $_POST['email'];
     $password = $_POST['password'];
